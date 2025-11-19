@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moss Photo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #e8edea;
+      color: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .frame {
+      max-width: 95vw;
+      max-height: 95vh;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+      border-radius: 8px;
+      background: #fdfdfd;
+      padding: 12px;
+    }
+    img {
+      display: block;
+      max-width: 95vw;
+      max-height: 90vh;
+      width: auto;
+      height: auto;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <picture>
+      <source srcset="./IMG_5680_web.webp" type="image/webp">
+      <img src="./IMG_5680_web.jpg" alt="Moss photograph">
+    </picture>
+  </div>
+</body>
+</html>
